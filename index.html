@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>   
 <body>
-    <ul>
+    <ul class= "lista">
         <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
         <li><a href="https://x.com"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
         <li><a href="https://workspace.google.com/intl/es/gmail/"><i class="fa-regular fa-envelope"></i> Correo</a></li>
@@ -28,18 +28,24 @@
         list-style: none;
         padding-left: 1px;
     }
-    li{
+    .lista li{
         padding-top: 5px;
         padding-bottom: 5px;
         padding-left: 5px;
     }
-    li:hover{
+    .lista li:hover{
         background-color: rgb(208, 206, 206);
         text-decoration: underline;
         box-sizing: content-box;
     }
-    li a{
+    .lsitali a{
         text-decoration: none; 
         color: black; 
     }
+    .lista li a:focus {
+    background: #ffebe8;
+    border-radius: 17px;
+    border: none;
+    border-color: aqua;
+}
 </style>
